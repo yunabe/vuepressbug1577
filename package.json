@@ -1,0 +1,12 @@
+{
+  "name": "vuepressbug1577",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.47"
+  },
+  "scripts": {
+    "build": "vuepress build",
+    "server": "cd .vuepress/dist; python -m SimpleHTTPServer 8888"
+  }
+}
